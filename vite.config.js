@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react'
 // path is required for routing.
 export default defineConfig({
     plugins: [react()],
+    base: '/portfolio/',
     build: {
         outDir: 'build',
     },
